@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabs and tooltips</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/6cadcb5ca6.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Tabs</h1>
+        <div class="wrapper">
+            <ul class="navbar">
+                <li class="navbar__item active__link"><a href="#" class="navbar__link"><i class="fa fa-camera" aria-hidden="true"></i> Photo</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link"><i class="fa fa-video-camera" aria-hidden="true"></i> Video</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link"><i class="fa fa-phone-square" aria-hidden="true"></i> Contacts</a></li>
+            </ul>
+            <div class="tab__content active__tab">
+                <h2 class="tab__header">Photo</h2>
+                <p class="tab__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis non minus voluptates dolorum consequuntur tenetur tempore, debitis eveniet culpa. Voluptatibus ut nisi inventore quis error, quae repellat quasi vel officiis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis non minus voluptates dolorum consequuntur tenetur tempore, debitis eveniet culpa. Voluptatibus ut nisi inventore quis error, quae repellat quasi vel officiis!</p>
+                <img src="http://lorempixel.com/350/175/">
+            </div>
+            <div class="tab__content">
+                <h2 class="tab__header">Video</h2>
+                <p class="tab__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis non minus voluptates dolorum consequuntur tenetur tempore, debitis eveniet culpa. Voluptatibus ut nisi inventore quis error, quae repellat quasi vel officiis!</p>
+                <div class="tab__video"><i class="fa fa-4x fa-play" aria-hidden="true"></i></div>
+            </div>
+            <div class="tab__content">
+                <h2 class="tab__header">Contacts</h2>
+                <p class="tab__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis non minus voluptates dolorum consequuntur tenetur tempore, debitis eveniet culpa. Voluptatibus ut nisi inventore quis error, quae repellat quasi vel officiis!</p>
+            </div>
+        </div>
+        <form action="" class="my__form">
+            <label for="name"><span class="text">First name</span>
+                <input type="text" id="name" class="input">
+                <span class="tooltip tooltip-1">Please, enter your first name</span>
+            </label>
+            <label for="lastName"><span class="text">Last name</span>
+                <input type="text" id="lastName" class="input">
+                <span class="tooltip tooltip-2">Please, enter your last name</span>
+            </label>
+            <label for="email"><span class="text">Email</span>
+                <input type="text" id="email" class="input">
+                <span class="tooltip tooltip-3">Please, enter your email</span>
+            </label>
+            <button id="help">Show help</button>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

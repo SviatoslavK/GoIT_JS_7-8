@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #5a56ad;
+    font-family: 'Roboto', sans-serif
+}
+.container {
+    margin: 10px auto;
+    width: 960px;
+}
+.wrapper {
+    background-color: rgba(226, 226, 226, 0.59);
+    width: 960px;
+    height: 350px;
+}
+.header {
+    margin: 15px;
+    color: #fff;
+    font-size: 48px;
+}
+.navbar {
+    width: 150px;
+    height: 330px;
+    float: left;
+    list-style: none;
+    padding-top: 20px;
+    -webkit-box-shadow: inset -5px 0px 14px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -5px 0px 14px -5px rgba(0,0,0,0.75);
+    box-shadow: inset -5px 0px 14px -5px rgba(0,0,0,0.75);
+}
+.navbar__item {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+.navbar__link {
+    display: inline-block;
+    text-decoration: none;
+    color: #332e2e;
+    width: 150px;
+    height: 50px;
+    font-weight: 300;
+}
+.tab__content {
+    display: none;
+    float: right;
+    width: 810px;
+    height: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #eee;
+}
+.tab__paragraph {
+    display: inline-block;
+    width: 400px;
+    float: left;
+    font-weight: 300;
+    margin-top: 15px;
+}
+.tab__video {
+    display: inline-block;
+    width: 350px;
+    height: 175px;
+    padding-top: 100px;
+    text-align: center;
+    background-color: #e1e1e1;
+}
+.active__tab {
+    display: inline-block;
+    background-color: #fff;
+}
+.active__link {
+    background-color: #fff;
+    z-index: 10;
+}
+form {
+    width: 500px;
+    height: 250px;
+    box-sizing: border-box;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px;
+    border: 1px solid #393586;
+    -webkit-box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,0.75);
+}
+label {
+    display: block;
+    height: 50px;
+}
+input {
+    height: 20px;
+    border-radius: 5px;
+}
+.text {
+    display: inline-block;
+    width: 80px;
+}
+button {
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid #393586;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    background-color: #5a56ad;
+    cursor: pointer;
+}
+button:hover {
+    transition: 1s;
+    background-color: #393586;
+}
+.tooltip {
+    display: inline-block;
+    opacity: 0;
+    float: right;
+    width: 150px;
+    border-radius: 5px;
+    padding-left: 5px;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+}
